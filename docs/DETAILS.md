@@ -18,7 +18,7 @@ gradlew assembleDebug
 
 APK: `app/build/outputs/apk/debug/app-debug.apk`
 
-After every `assembleDebug`/`assembleRelease` (also when running from Android Studio) the APK is additionally copied as `SNIDroid-<version>-<variant>.apk` to the folder set in `snidroid.apkExportDir` (`gradle.properties`). If the folder does not exist, the step is skipped.
+After every `assembleDebug`/`assembleRelease` (also when running from Android Studio) the APK is additionally copied as `SNIDroid-<version>-<variant>.apk` to the folder set in `snidroid.apkExportDir`. Put it in your user-level `~/.gradle/gradle.properties` (not the repo), e.g. `snidroid.apkExportDir=D:/apks`. If it is unset or the folder does not exist, the step is skipped.
 
 ## Project layout
 

@@ -31,3 +31,7 @@ gradlew assembleDebug
 ```
 
 Build-Details, Projektaufbau und Protokoll: [docs/DETAILS.de.md](docs/DETAILS.de.md)
+
+## Lizenz
+
+MIT – siehe [LICENSE](LICENSE). Enthält portierten Code aus [SNI](https://github.com/alttpo/sni) (MIT), siehe [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).

@@ -18,7 +18,7 @@ gradlew assembleDebug
 
 APK: `app/build/outputs/apk/debug/app-debug.apk`
 
-Nach jedem `assembleDebug`/`assembleRelease` (auch beim Ausführen aus Android Studio) wird die APK zusätzlich als `SNIDroid-<version>-<variante>.apk` in den Ordner aus `snidroid.apkExportDir` (`gradle.properties`) kopiert. Existiert der Ordner nicht, wird der Schritt übersprungen.
+Nach jedem `assembleDebug`/`assembleRelease` (auch beim Ausführen aus Android Studio) wird die APK zusätzlich als `SNIDroid-<version>-<variante>.apk` in den Ordner aus `snidroid.apkExportDir` kopiert. Die Einstellung gehört in die benutzerweite `~/.gradle/gradle.properties` (nicht ins Repo), z. B. `snidroid.apkExportDir=D:/apks`. Ist sie nicht gesetzt oder existiert der Ordner nicht, wird der Schritt übersprungen.
 
 ## Aufbau
 

@@ -57,9 +57,9 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
 }
 
-// Copy every built APK to the export folder (default: Google Drive "G:/Meine Ablage/TA").
-// Override with -Psnidroid.apkExportDir=... or in gradle.properties. Skipped if the folder does not exist.
-val apkExportDir: String = providers.gradleProperty("snidroid.apkExportDir").getOrElse("G:/Meine Ablage/TA")
+// Optionally copy every built APK to an export folder. Set snidroid.apkExportDir in ~/.gradle/gradle.properties
+// or pass -Psnidroid.apkExportDir=... Skipped if unset or the folder does not exist.
+val apkExportDir: String = providers.gradleProperty("snidroid.apkExportDir").getOrElse("")
 val appVersionName: String = android.defaultConfig.versionName ?: "dev"
 
 androidComponents {
@@ -74,6 +74,7 @@ androidComponents {
             }
             into(apkExportDir)
             onlyIf {
+                if (apkExportDir.isBlank()) return@onlyIf false
                 val exists = File(apkExportDir).isDirectory
                 if (!exists) logger.warn("APK export skipped: folder '$apkExportDir' not found")
                 exists
