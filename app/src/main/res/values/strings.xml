@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SNIDroid</string>
+    <string name="section_log">Log</string>
+    <string name="state_no_device">No FXPak Pro found. Connect it via USB OTG.</string>
+    <string name="state_no_permission">USB permission required.</string>
+    <string name="state_connecting">Connecting…</string>
+    <string name="state_connected">Connected: %1$s</string>
+    <string name="state_error">Connection failed.</string>
+    <string name="action_search_device">Search device</string>
+    <string name="action_upload_here">Upload ROMs here</string>
+    <string name="action_upload">Upload</string>
+    <string name="action_new_folder">New folder</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_rename">Rename</string>
+    <string name="action_move">Move</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_boot">Boot</string>
+    <string name="action_select_all">Select all</string>
+    <string name="action_paste_here">Move here</string>
+    <string name="folder_empty">This folder is empty.</string>
+    <string name="upload_target">Target: %1$s</string>
+    <string name="label_boot_after_upload">Boot ROM after upload</string>
+    <string name="confirm_delete_folders">Folders are deleted including their contents.</string>
+    <string name="msg_protected">%1$s is protected (firmware folder)</string>
+    <string name="msg_same_folder">Items are already in this folder</string>
+    <string name="msg_move_into_itself">Cannot move %1$s into itself</string>
+    <string name="log_permission_denied">USB permission denied</string>
+    <string name="log_detached">FXPak Pro disconnected</string>
+    <string name="log_connected">Connected: %1$s</string>
+    <string name="log_error">Error: %1$s</string>
+    <string name="log_unknown_extension">Warning: %1$s has no typical SNES ROM extension</string>
+    <string name="log_uploading">Uploading %1$s (%2$d KB)…</string>
+    <string name="log_upload_done">Upload complete: %1$s</string>
+    <string name="log_booted">Booted %1$s</string>
+    <string name="log_reconnecting">Reconnecting…</string>
+    <string name="log_path_too_long">Target path too long: %1$s</string>
+    <string name="log_folder_created">Folder created: %1$s</string>
+    <string name="log_renamed">Renamed %1$s → %2$s</string>
+    <string name="log_deleted">Deleted %1$s</string>
+    <string name="log_moved">Moved %1$s → %2$s</string>
+
+    <plurals name="selected_count">
+        <item quantity="one">%1$d selected</item>
+        <item quantity="other">%1$d selected</item>
+    </plurals>
+    <plurals name="move_pending">
+        <item quantity="one">%1$d item to move – open the target folder</item>
+        <item quantity="other">%1$d items to move – open the target folder</item>
+    </plurals>
+    <plurals name="confirm_delete">
+        <item quantity="one">Delete this item?\n\n%2$s</item>
+        <item quantity="other">Delete %1$d items?\n\n%2$s</item>
+    </plurals>
+</resources>

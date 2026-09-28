@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="section_log">Protokoll</string>
+    <string name="state_no_device">Kein FXPak Pro gefunden. Per USB-OTG anschließen.</string>
+    <string name="state_no_permission">USB-Berechtigung erforderlich.</string>
+    <string name="state_connecting">Verbinde…</string>
+    <string name="state_connected">Verbunden: %1$s</string>
+    <string name="state_error">Verbindung fehlgeschlagen.</string>
+    <string name="action_search_device">Gerät suchen</string>
+    <string name="action_upload_here">ROMs hierher hochladen</string>
+    <string name="action_upload">Hochladen</string>
+    <string name="action_new_folder">Neuer Ordner</string>
+    <string name="action_refresh">Aktualisieren</string>
+    <string name="action_rename">Umbenennen</string>
+    <string name="action_move">Verschieben</string>
+    <string name="action_delete">Löschen</string>
+    <string name="action_boot">Starten</string>
+    <string name="action_select_all">Alle auswählen</string>
+    <string name="action_paste_here">Hierher verschieben</string>
+    <string name="folder_empty">Dieser Ordner ist leer.</string>
+    <string name="upload_target">Ziel: %1$s</string>
+    <string name="label_boot_after_upload">ROM nach Upload starten</string>
+    <string name="confirm_delete_folders">Ordner werden samt Inhalt gelöscht.</string>
+    <string name="msg_protected">%1$s ist geschützt (Firmware-Ordner)</string>
+    <string name="msg_same_folder">Elemente liegen bereits in diesem Ordner</string>
+    <string name="msg_move_into_itself">%1$s kann nicht in sich selbst verschoben werden</string>
+    <string name="log_permission_denied">USB-Berechtigung verweigert</string>
+    <string name="log_detached">FXPak Pro getrennt</string>
+    <string name="log_connected">Verbunden: %1$s</string>
+    <string name="log_error">Fehler: %1$s</string>
+    <string name="log_unknown_extension">Warnung: %1$s hat keine typische SNES-ROM-Endung</string>
+    <string name="log_uploading">Lade %1$s hoch (%2$d KB)…</string>
+    <string name="log_upload_done">Upload abgeschlossen: %1$s</string>
+    <string name="log_booted">%1$s gestartet</string>
+    <string name="log_reconnecting">Verbinde neu…</string>
+    <string name="log_path_too_long">Zielpfad zu lang: %1$s</string>
+    <string name="log_folder_created">Ordner angelegt: %1$s</string>
+    <string name="log_renamed">Umbenannt %1$s → %2$s</string>
+    <string name="log_deleted">Gelöscht: %1$s</string>
+    <string name="log_moved">Verschoben %1$s → %2$s</string>
+
+    <plurals name="selected_count">
+        <item quantity="one">%1$d ausgewählt</item>
+        <item quantity="other">%1$d ausgewählt</item>
+    </plurals>
+    <plurals name="move_pending">
+        <item quantity="one">%1$d Element zum Verschieben – Zielordner öffnen</item>
+        <item quantity="other">%1$d Elemente zum Verschieben – Zielordner öffnen</item>
+    </plurals>
+    <plurals name="confirm_delete">
+        <item quantity="one">Dieses Element löschen?\n\n%2$s</item>
+        <item quantity="other">%1$d Elemente löschen?\n\n%2$s</item>
+    </plurals>
+</resources>
